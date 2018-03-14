@@ -7,10 +7,13 @@
   <body>
     <h1 class="main-logo">Техномарт</h1>
     <header class="main-header">
-      <section class="header-top">
+      <div class="header-top">
         <ul>
           <li>
-            <span class="search">Поиск</span>
+            <form action="" method="post">
+                <label for="search">Поиск</label>
+                <input id="search" type="search" name="seek">
+            </form>
           </li>
           <li>
             <a class="bookmarks" href="#">Закладки</a>
@@ -22,8 +25,8 @@
             <a class="order" href="#">Оформить заказ</a>
           </li>
         </ul>
-      </section>
-      <section class="header-middle">
+      </div>
+      <div class="header-middle">
         <span class="info">Интернет-магазин строительных материалов и инструментов для ремонта</span>
         <span class="tel">+7 (812) 555-05-55</span>
         <span class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д 19/8</span>
@@ -32,29 +35,29 @@
           <a href="#">Регистрация</a>
         </div>
       </section>
-      <section class="header-bottom">
+      <div class="header-bottom">
         <nav class="main-navigator">
           <ul>
             <li>
-              <a href="#">Главная</a>
+              <a class="header-bottom-link" href="#">Главная</a>
             </li>
             <li>
-              <a href="#">Компания</a>
+              <a class="header-bottom-link" href="#">Компания</a>
             </li>
             <li>
-              <a href="#">Каталог</a>
+              <a class="header-bottom-link" href="#">Каталог</a>
             </li>
             <li>
-              <a href="#">Новости</a>
+              <a class="header-bottom-link" href="#">Новости</a>
             </li>
             <li>
-              <a href="#">Спецпредложения</a>
+              <a class="header-bottom-link" href="#">Спецпредложения</a>
             </li>
             <li>
-              <a href="#">Доставка</a>
+              <a class="header-bottom-link" href="#">Доставка</a>
             </li>
             <li>
-              <a href="#">Контакты</a>
+              <a class="header-bottom-link" href="#">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -94,8 +97,8 @@
             <span>Соседям на радость!</span>
             <img src="./img/slider-2.jpg" alt="Дрели">
           </div>
-          <button class="btn slider-prev">Назад</button>
-          <button class="btn slider-next">Вперед</button>
+          <button type="button" class="btn slider-prev">Назад</button>
+          <button type="button" class="btn slider-next">Вперед</button>
           <a class="open-catalog" href="catalog.html">Открыть каталог</a>
         </div>
       </section>
@@ -237,7 +240,7 @@
     </main>
     <footer class="main-footer">
       <div class="container">
-        <section class="footer-top">
+        <div class="footer-top">
           <a class="logo" href="#">Техномарт</a>
           <nav class="footer-top-links">
             <ul>
@@ -258,8 +261,8 @@
               </li>
             </ul>
           </nav>
-        </section>
-        <section class="footer-middle">
+        </div>
+        <div class="footer-middle">
           <p class="footer-contacts">г. Санкт-Петербург, ул. Б.Конюшенная, д. 19/8</p>
           <nav class="footer-middle-links">
             <ul>
@@ -277,8 +280,8 @@
               </li>
             </ul>
           </nav>
-        </section>
-        <section class="footer-bottom">
+        </div>
+        <div class="footer-bottom">
           <span>&#169; 2010-2017 Компания &#171;Техномарт&#187;<br>
             Все права защищены
           </span>
@@ -289,7 +292,7 @@
           <a class="btn" href="#">mail@htmlacademy.ru</a>
           <span>Разработано - </span>
           <a class="btn" href="https://htmlacademy.ru/intensive/htmlcss"> htmlacademy.ru</a>
-        </section>
+        </div>
       </div>
     </footer>
     <div class="modal-window">
