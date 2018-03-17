@@ -1,0 +1,280 @@
+/*Глобальные текстовые параметры*/
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+
+  background-color: rgb(255, 255, 255);
+}
+a {
+  text-decoration: none;
+}
+.header-top {
+  background-color: rgb(41, 52, 73);
+}
+.main-logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 24px;
+  background-color: rgb(238,54, 67);
+  color: rgb(255, 255, 255);
+}
+.header-top a {
+  font-size: 17px;
+  line-height: 18px;
+  color: rgb(255, 255, 255);
+}
+.header-top label {
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.header-top li {
+  list-style: none;
+}
+li .order {
+  background-color: rgb(99, 166, 62);
+}
+.header-middle {
+  background-color: rgb(243, 247, 248);
+}
+.info {
+  font-size: 16px;
+  font-style: italic;
+  line-height: 23px;
+  color: rgb(238, 54, 67);
+}
+.tel {
+  font-size: 21px;
+  font-style: italic;
+  line-height: 21px;
+  color: rgb(238, 54, 67);
+}
+.address {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb(50, 66, 92);
+}
+.user-block a {
+  font-size: 21px;
+  line-height: 21px;
+  background-color: rgb(255, 255, 255);
+}
+.header-bottom {
+  background-color: rgb(50, 66, 92);
+}
+.header-bottom a {
+  font-size: 17px;
+  line-height: 17px;
+  color: rgb(255, 255, 255);
+}
+.header-bottom li {
+  list-style: none;
+}
+.assortment-list span:not(.new) {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30;
+  color: rgb(255, 255, 255);
+}
+.block1 {
+  background-color: rgb(255, 191, 71);
+}
+.block2 {
+  background-color: rgb(59, 188, 227);
+}
+.block3 {
+  background-color: rgb(220, 145, 216);
+}
+.block4 {
+  background-color: rgb(142, 215, 143);
+}
+.block5 {
+  background-color: rgb(255, 192, 71);
+}
+.assortment-btn {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 18px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.slider {
+  background-color: rgb(222,184,135);
+}
+.slider h2 {
+  font-size: 36px;
+  line-height: 36px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.slider span {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  line-height: 24px;
+}
+.slider a {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  background-color: rgb(238, 54, 67);
+}
+.pop-goods-head h2 {
+  font-size: 30px;
+  line-height: 30px;
+  color: rgb(50, 66, 92);
+  text-transform: uppercase;
+}
+.pop-goods-btn {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  background-color: rgb(238, 54, 67);
+}
+.pop-goods-head {
+  background-color: rgb(249, 245, 240);
+}
+.pop-goods li {
+  list-style: none;
+}
+.pop-goods-element h3 {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "Pt Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+.old-cost {
+  font-size: 17px;
+  line-height: 18px;
+  font-family: "PTSans", Arial, sans-serif;
+  color: rgb(169, 169, 169);
+  font-weight: bold;
+  text-decoration: line-through;
+  text-transform: uppercase;
+}
+.element-cost {
+  font-size: 17px;
+  line-height: 18px;
+  font-family: "PTSans", Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgb(238, 54, 67);
+}
+.pop-creators-head {
+  background-color: rgb(249, 245, 240);
+}
+.pop-creators-head h2 {
+  font-size: 30px;
+  line-height: 30px;
+  color: rgb(50, 66, 92);
+}
+.pop-creators-btn {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  background-color: rgb(238, 54, 67);
+}
+.services {
+  background-color: 244, 248, 250;
+}
+.service h2 {
+  font-size: 30px;
+  line-height: 30;
+  text-transform: uppercase;
+}
+.services li {
+  list-style: none;
+}
+.service-type {
+  font-size: 21px;
+  line-height: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  background-color: rgb(50, 66, 92);
+}
+.services h3 {
+  font-size: 25px;
+  line-height: 30px;
+  color: rgb(50, 66, 92);
+}
+.description h2 {
+  font-size: 25px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+.description-list {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+}
+.about-company {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(238, 54, 67);
+  text-transform: uppercase;
+}
+.contacts h2 {
+  font-size: 25px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+.write-us {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(238, 54, 67);
+  text-transform: uppercase;
+}
+a.logo {
+  font-size: 30px;
+  line-height: 30px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  background-color: rgb(238, 54, 67);
+}
+.footer-top {
+  background-color: rgb(50, 66, 92);
+}
+.footer-middle {
+  background-color: rgb(50, 66, 92);
+}
+.footer-top-links li {
+  list-style: none;
+}
+a.footer-top-link {
+  font-size: 18px;
+  color: rgb(243, 247, 249);
+  line-height: 24px;
+}
+.footer-contacts {
+  font-size: 18px;
+  line-height: 24px;
+  color: rgb(243, 247, 249);
+}
+.footer-middle-links li {
+  list-style: none;
+}
+a.footer-middle-link {
+  font-size: 18px;
+  line-height: 24px;
+  color: rgb(255, 209, 128);
+}
+.footer-bottom {
+  background-color: rgb(41, 52, 73);
+}
+.copyright {
+  font-size: 16px;
+  line-height: 18px;
+  color: rgb(255, 255, 255);
+}
