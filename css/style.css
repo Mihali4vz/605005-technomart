@@ -14,6 +14,7 @@ body {
 a {
   text-decoration: none;
 }
+/*Главная страница*/
 .header-top {
   background-color: rgb(41, 52, 73);
 }
@@ -184,6 +185,9 @@ li .order {
   text-transform: uppercase;
   background-color: rgb(238, 54, 67);
 }
+.pop-creators li {
+  list-style: none;
+}
 .services {
   background-color: 244, 248, 250;
 }
@@ -216,6 +220,13 @@ li .order {
     font-size: 18px;
     line-height: 24px;
     font-weight: bold;
+}
+a.send-request-btn {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  background-color: rgb(255, 83, 87);
 }
 .about-company {
   font-size: 14px;
@@ -277,4 +288,175 @@ a.footer-middle-link {
   font-size: 16px;
   line-height: 18px;
   color: rgb(255, 255, 255);
+}
+.feedback {
+  font-size: 16px;
+  line-height: 18px;
+  color: rgb(255, 255, 255);
+}
+a.btn {
+  font-size: 16px;
+  line-height: 18px;
+  color: rgb(255, 209, 128);
+}
+/*Модальное окно*/
+div.modal-window {
+  background-color: rgb(255, 255, 255);
+}
+.modal-window-font {
+  font-size: 18px;
+  line-height: 18px;
+}
+.modal-window-send {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  background-color: rgb(238, 54, 67);
+}
+/*Каталог*/
+.cabinet {
+  background-color: rgb(255, 255, 255);
+}
+.personal a {
+  font-size: 16px;
+  color: rgb(50, 66, 92);
+  text-decoration: underline;
+  line-height: 18px;
+}
+.catalog-tree a {
+  font-size: 13px;
+  font-family: "PTSans", Arial, sans-serif;
+  text-transform: uppercase;
+  line-height: 18px;
+  color: rgb(0, 0, 0);
+}
+.catalog-tree li {
+  list-style: none;
+}
+.subject h2 {
+  font-size: 30px;
+  color: rgb(50, 66, 92);
+  text-transform: uppercase;
+  line-height: 30px;
+}
+div.subject {
+  background-color: rgb(242, 246, 248);
+}
+.sorting-style {
+  font-size: 13px;
+  font-family: "PTSans", Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  line-height: 18px;
+  text-transform: uppercase;
+}
+div a.cost {
+  font-size: 13px;
+  font-family: "PTSans", Arial, sans-serif;
+  line-height: 18px;
+  color: rgb(238, 54, 67);
+}
+div a.sorting-style-rest {
+  font-size: 13px;
+  font-family: "PTSans", Arial, sans-serif;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.302);
+  border-bottom-style: dotted;
+  border-width: 1px;
+  border-color: rgb(238, 54, 67);
+}
+
+p.catalog-filter {
+  background-color: rgb(247, 243, 236);
+}
+div.sorting-panel {
+  background-color: rgb(247, 243, 236);
+}
+.cost-range {
+  background-color: rgb(247, 243, 236);
+}
+.side-filters {
+  font-size: 17px;
+  line-height: 30px;
+  font-family: "PTSans", Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.side-bar label {
+  font-size: 15px;
+  font-family: "PTSans", Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 20px;
+}
+a.show-btn {
+  font-size: 13px;
+  font-family: "PTSans", Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  line-height: 18px;
+}
+.goods li {
+  list-style: none;
+}
+a.assortment-select-btn {
+    font-size: 13px;
+    font-family: "PTSans", Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 18px;
+}
+a.assortment-select-btn:first-child {
+    color: rgb(255, 255, 255);
+    background-color: rgb(238, 54, 67);
+}
+.about-subject {
+  background-color: rgb(242, 246, 248);
+}
+.about-subject h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  line-height: 32px;
+}
+.about-subject p {
+  font-size: 15px;
+  line-height: 16px;
+}
+/*Окна*/
+.buy {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 18px;
+  background-color: rgb(99, 166,62);
+}
+.bookmark {
+  font-size: 14px;
+  color: rgb(50, 66, 92);
+  text-transform: uppercase;
+  line-height: 18px;
+  border: 2px solid rgb(99, 166, 62);
+  background-color: rgb(255, 255, 255);
+}
+div.cart-upper-section {
+  background-color: rgb(255, 255, 255);
+}
+div.cart-lower-section {
+  background-color: rgb(241, 241, 241);
+}
+.cart-text {
+  font-size: 30px;
+  line-height: 30px;
+}
+a.checkout {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 18px;
+  background-color: rgb(238, 54, 67);
+}
+.cart-continue {
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 18px;
+  background-color: rgb(255, 255, 255);
 }
