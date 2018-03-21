@@ -12,8 +12,10 @@
     <h1 class="visually-hidden">Техномарт</h1>
     <header class="main-header">
       <div class="header-top">
-        <a class="logo main-logo" href="index.html">Техномарт</a>
         <ul>
+          <li>
+            <a class="logo main-logo" href="index.html">Техномарт</a>
+          </li>
           <li>
             <form action="" method="post">
                 <label for="search">Поиск</label>
@@ -21,10 +23,10 @@
             </form>
           </li>
           <li>
-            <a class="bookmarks" href="#">Закладки</a>
+            <a class="bookmarks" href="#">Закладки: 0</a>
           </li>
           <li>
-            <a class="cart" href="#">Корзина</a>
+            <a class="cart" href="#">Корзина: 10</a>
           </li>
           <li>
             <a class="order" href="#">Оформить заказ</a>
@@ -32,15 +34,15 @@
         </ul>
       </div>
       <div class="header-middle">
-        <p class="info">Интернет-магазин строительных материалов и инструментов для ремонта</p>
-        <p class="tel">+7 (812) 555-05-55</p>
-        <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д 19/8</p>
+        <span class="info">Интернет-магазин строительных материалов и инструментов для ремонта</span>
+        <p><span class="tel">+7 (812) 555-05-55</span><br>
+        <span class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д 19/8</span></p>
         <div class="cabinet">
           <a href"#"><h2>Равшан Джамшутович</h2></a>
           <a href="#"><img class="avatar" src="http://placehold.it/150x100"></a>
           <a class="exit-btn" href="#">Выход</a>
         </div>
-        <div class="personal">
+        <div>
           <a class="orders" href="#">Мои заказы</a>
           <span>.</span>
           <a class="cabinet" href="#">Личный кабинет</a>
@@ -96,14 +98,14 @@
       </div>
       <section class="catalog-items">
         <aside class="side-bar">
-          <p class="catalog-filter">Фильтр:</p>
+          <p class="catalog-filter sorting-style">Фильтр:</p>
           <form action="" method="post">
             <fieldset>
               <legend class="side-filters">ЦЕНА:</legend>
               <input type="range" min="0" max="30000" name="cost">
-              <span>0</span>
+              <span class="cost-range">0</span>
               <span>-</span>
-              <span>30000</span>
+              <span class="cost-range">30000</span>
             </fieldset>
             <fieldset>
               <legend class="side-filters">ПРОИЗВОДИТЕЛИ:</legend>
@@ -137,10 +139,10 @@
         </aside>
         <section class="catalog-assortment">
           <div class="sorting-panel">
-            <p class="sorting">СОРТИРОВКА:<p>
-            <a class="sorting-style" href="#">ПО ЦЕНЕ</a>
-            <a class="sorting-style" href="#">ПО ТИПУ</a>
-            <a class="sorting-style" href="#">ПО ФУНКЦИОНАЛУ</a>
+            <p class="sorting sorting-style">СОРТИРОВКА:<p>
+            <a class="sorting-style cost" href="#">ПО ЦЕНЕ</a>
+            <a class="sorting-style-rest" href="#">ПО ТИПУ</a>
+            <a class="sorting-style-rest" href="#">ПО ФУНКЦИОНАЛУ</a>
             <a class="btn assortment-up" href="#">Вверх</a>
             <a class="btn assortment-down" href="#">Вниз</a>
           </div>
@@ -211,6 +213,7 @@
         </section>
       </section>
       <div class="about-subject">
+        <h3>Пара слов о перфораторах</h3>
         <p>Перфоратор - универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне. Существуют электромеханические и пневматические перфораторы. Современные модели могут выполянть функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор &#171;трехрежимников&#187;: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
       </div>
     </main>
@@ -258,15 +261,15 @@
           </nav>
         </div>
         <div class="footer-bottom">
-          <p>&#169; 2010-2017 Компания &#171;Техномарт&#187;<br>
+          <span class="copyright">&#169; 2010-2017 Компания &#171;Техномарт&#187;<br>
             Все права защищены
-          </p>
+          </span>
           <a class="social-btn social-btn-vk" href="#">В контакте</a>
           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
           <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-          <p>Обратная связь:</p>
+          <span class="feedback">Обратная связь:</span>
           <a class="btn" href="#">mail@htmlacademy.ru</a>
-          <p>Разработано - </p>
+          <span class="feedback">Разработано - </span>
           <a class="btn" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
         </div>
       </div>
@@ -277,10 +280,14 @@
       <button class="bookmark">В ЗАКЛАДКИ</button>
     </div>
     <div class="cart">
-      <p class="cart-text">Товар добавлен в корзину!</p>
-      <button class="cart-exit">Выход</button>
-      <a class="checkout" href="#">ОФОРМИТЬ ЗАКАЗ</a>
-      <button class="cart-continue">ПРОДОЛЖИТЬ ПОКУПКИ</button>
+      <div class="cart-upper-section">
+        <h3 class="cart-text">Товар добавлен в корзину!</h3>
+        <button class="cart-exit">Выход</button>
+      </div>
+      <div class="cart-lower-section">
+        <a class="checkout" href="#">ОФОРМИТЬ ЗАКАЗ</a>
+        <button class="cart-continue">ПРОДОЛЖИТЬ ПОКУПКИ</button>
+      </div>
     </div>
   </body>
 </html>

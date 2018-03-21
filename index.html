@@ -9,36 +9,38 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <h1 class="main-logo">Техномарт</h1>
     <header class="main-header">
       <div class="header-top">
         <ul>
           <li>
+            <h1 class="main-logo">Техномарт</h1>
+          </li>
+          <li class="searching">
             <form action="" method="post">
                 <label for="search">Поиск</label>
                 <input id="search" type="search" name="seek">
             </form>
           </li>
-          <li>
-            <a class="bookmarks" href="#">Закладки</a>
+          <li class="main-bookmark">
+            <a class="bookmarks" href="#">Закладки: 0</a>
           </li>
-          <li>
-            <a class="cart" href="#">Корзина</a>
+          <li class="main-cart">
+            <a class="cart" href="#">Корзина: 0</a>
           </li>
-          <li>
+          <li class="main-order">
             <a class="order" href="#">Оформить заказ</a>
           </li>
         </ul>
       </div>
       <div class="header-middle">
         <span class="info">Интернет-магазин строительных материалов и инструментов для ремонта</span>
-        <span class="tel">+7 (812) 555-05-55</span>
-        <span class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д 19/8</span>
+        <p><span class="tel">+7 (812) 555-05-55</span><br>
+        <span class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д 19/8</span></p>
         <div class="user-block">
           <a href="#">Вход</a>
           <a href="#">Регистрация</a>
         </div>
-      </section>
+      </div>
       <div class="header-bottom">
         <nav class="main-navigator">
           <ul>
@@ -65,37 +67,32 @@
             </li>
           </ul>
         </nav>
-      </section>
+      </div>
     </header>
     <main class="container">
       <section class="assortment">
         <div class="assortment-list block1">
-          <a class="assortment-btn" href="#">НА ЛЮБОЙ ВКУС</a>
           <span>Материалы</span>
+          <a class="assortment-btn" href="#">НА ЛЮБОЙ ВКУС</a>
           <span class="new">new</span>
         </div>
         <div class="assortment-list block2">
-          <a class="assortment-btn" href="#">НА ВСЕ СЛУЧАИ</a>
           <span>Инструмент</span>
+          <a class="assortment-btn" href="#">НА ВСЕ СЛУЧАИ</a>
         </div>
         <div class="assortment-list block3">
-          <a class="assortment-btn" href="#">ДЛЯ СТРОЙКИ</a>
           <span>Техника</span>
+          <a class="assortment-btn" href="#">ДЛЯ СТРОЙКИ</a>
         </div>
         <div class="assortment-list block4">
-          <a class="assortment-btn" href="#">НА 350 ТОВАРОВ</a>
           <span>Скидки 50%</span>
+          <a class="assortment-btn" href="#">НА 350 ТОВАРОВ</a>
         </div>
         <div class="assortment-list block5">
-          <a class="assortment-btn" href="#">Доставка</a>
           <span>БЕСПЛАТНО</span>
+          <a class="assortment-btn" href="#">Доставка</a>
         </div>
         <div class="slider">
-          <div class="slider1">
-            <h2>ПЕРФОРАТОРЫ</h2>
-            <span>Настоящие мужские игрушки</span>
-            <img src="./img/slider-1.jpg" alt="Перфораторы" >
-          </div>
           <div class="slider2">
             <h2>ДРЕЛИ</h2>
             <span>Соседям на радость!</span>
@@ -293,9 +290,9 @@
           <a class="social-btn social-btn-vk" href="#">В контакте</a>
           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
           <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-          <span>Обратная связь:</span>
+          <span class="feedback">Обратная связь:</span>
           <a class="btn" href="#">mail@htmlacademy.ru</a>
-          <span>Разработано - </span>
+          <span class="feedback">Разработано - </span>
           <a class="btn" href="https://htmlacademy.ru/intensive/htmlcss"> htmlacademy.ru</a>
         </div>
       </div>
@@ -309,6 +306,12 @@
       <input id="message" type="text" placeholder="В свободной форме">
       <button class="modal-window-exit">Выход</button>
       <button class="modal-window-send">ОТПРАВИТЬ</button>
+    </div>
+    <!--Слайдер-->
+    <div class="slider1">
+      <h2>ПЕРФОРАТОРЫ</h2>
+      <span>Настоящие мужские игрушки</span>
+      <img src="./img/slider-1.jpg" alt="Перфораторы" >
     </div>
   </body>
 </html>
