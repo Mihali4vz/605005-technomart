@@ -41,7 +41,7 @@ a {
 li .order {
   background-color: rgb(99, 166, 62);
 }
-.header-middle {
+.main-header {
   background-color: rgb(243, 247, 248);
 }
 .info {
@@ -189,7 +189,7 @@ li .order {
   list-style: none;
 }
 .services {
-  background-color: 244, 248, 250;
+  background-color: rgb(244, 248, 250);
 }
 .service h2 {
   font-size: 30px;
@@ -221,7 +221,7 @@ li .order {
     line-height: 24px;
     font-weight: bold;
 }
-a.send-request-btn {
+.send-request-btn {
   font-size: 14px;
   line-height: 18px;
   color: rgb(255, 255, 255);
@@ -340,7 +340,7 @@ div.modal-window {
   text-transform: uppercase;
   line-height: 30px;
 }
-div.subject {
+.subject {
   background-color: rgb(242, 246, 248);
 }
 .sorting-style {
@@ -459,4 +459,61 @@ a.checkout {
   text-transform: uppercase;
   line-height: 18px;
   background-color: rgb(255, 255, 255);
+}
+/*Сетка главной страницы*/
+.main-header {
+  display: flex;
+  flex-direction: column;
+  min-height: 320px;
+}
+.header-top: {
+  width: 100%;
+}
+.header-top ul {
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  width: 940px;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-middle {
+  display: flex;
+  min-height: 159px;
+  width: 940px;
+  margin-left:auto;
+  margin-right:auto;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-bottom {
+  width: 940px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.main-navigator ul {
+  display: flex;
+  flex-basis: 940px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.container {
+  width: 940px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.assortment {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.assortment-list {
+  display: flex;
+  align-items: center;
+  width: 301px;
+  height: 123px;
 }
