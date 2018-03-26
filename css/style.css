@@ -53,7 +53,7 @@ input[type="radio"].visually-hidden {
   background-color: rgb(243, 247, 248);
 }
 .header-top {
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
   background-color: rgb(41, 52, 73);
 }
 .main-logo {
@@ -62,16 +62,16 @@ input[type="radio"].visually-hidden {
   font-size: 24px;
   line-height: 24px;
   text-transform: uppercase;
-  background-color: rgb(238,54, 67);
-  box-shadow: 0 5px 0 0 rgb(181,41,51);
+  background-color: rgb(238, 54, 67);
+  box-shadow: 0 5px 0 0 rgb(181, 41, 51);
 }
 .main-logo:hover {
   background-color: rgb(202, 44, 55);
   box-shadow: 0 5px 0 0 rgb(154, 33, 42);
 }
 .page-header__logo:active {
-  background-color: #ba2732;
-  box-shadow: 0 5px 0 0 #8e1e26;
+  background-color: rgb(186, 39, 50);
+  box-shadow: 0 5px 0 0 rgb(142, 30, 38);
 }
 .header-top a:not(.main-logo) {
   padding-top: 12px;
@@ -294,7 +294,7 @@ input.search::-ms-input-placeholder {
 }
 .header-bottom-link a:active {
   color: rgba(225, 225, 225, 0.5);
-  background-color:
+  background-color: rgb(29, 39, 57);
 }
 .assortment {
   margin: 0;
@@ -391,14 +391,14 @@ input.search::-ms-input-placeholder {
   font-size: 14px;
   text-transform: uppercase;
   text-align: center;
-  background-color: rgba(0,0,0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
   border-radius: 3px;
 }
 .assortment-btn:hover {
-  background-color: rgba(0,0,0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 .assortment-btn:active {
-  background-color: rgba(0,0,0, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 .slider {
   display: flex;
@@ -480,68 +480,68 @@ input.search::-ms-input-placeholder {
 }
 .catalog-items,
 .catalog-items2 {
-    margin:0;
+    margin: 0;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 .catalog-item {
-    position:relative;
-    display:inline-block;
-    width:218px;
-    margin-right:20px;
-    margin-bottom:20px;
+    position: relative;
+    display: inline-block;
+    width: 218px;
+    margin-right: 20px;
+    margin-bottom: 20px;
     font-family: 'PT Sans', Arial, sans-serif;
-    border:1px solid rgb(204, 204, 204);
-    line-height:20px;
-    font-weight:bold;
-    text-align:center;
+    border: 1px solid rgb(204, 204, 204);
+    line-height: 20px;
+    font-weight: bold;
+    text-align: center;
 }
 .catalog-item:nth-child(4n){
-    margin-right:0;
+    margin-right: 0;
 }
 .catalog-item .flag {
-    position:absolute;
-    top:-1px;
-    right:-1px;
-    width:60px;
-    height:60px;
-    text-indent:-1000px;
-    overflow:hidden;
-    z-index:20;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 60px;
+    height: 60px;
+    text-indent: -1000px;
+    overflow: hidden;
+    z-index: 20;
 }
 .catalog-item .flag-new {
     background: url("../img/new-flag.png") no-repeat 0 0;
 }
 .catalog-item .actions {
-    position:absolute;
-    top:0;
-    left:0;
-    width:218px;
-    height:88px;
-    padding:40px 0;
-    background-color:rgba(255,255,255,0.9);
-    z-index:10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 218px;
+    height: 88px;
+    padding: 40px 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 10;
 }
 .catalog-item .actions .buy,
 .catalog-item .actions .bookmark{
-    display:block;
-    width:129px;
-    margin:0 auto;
-    margin-bottom:7px;
-    padding:7px 0;
-    border:3px solid rgb(99, 166, 62);
-    border-bottom-color:rgb(54, 115, 21);
-    background-color:rgb(99, 166, 62);
-    color:rgb(255, 255, 255);
+    display: block;
+    width: 129px;
+    margin: 0 auto;
+    margin-bottom: 7px;
+    padding: 7px 0;
+    border: 3px solid rgb(99, 166, 62);
+    border-bottom-color: rgb(54, 115, 21);
+    background-color: rgb(99, 166, 62);
+    color: rgb(255, 255, 255);
     font-family: "Cuprum", Arial, sans-serif;
-    font-size:14px;
+    font-size: 14px;
     font-weight: 400;
-    line-height:18px;
-    text-decoration:none;
-    text-transform:uppercase;
-    border-radius:3px;
+    line-height: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
 }
 .catalog-item .actions .buy:hover {
   background-color: rgb(95, 187, 45);
@@ -550,9 +550,9 @@ input.search::-ms-input-placeholder {
   background-color: rgb(81, 133, 52);
 }
 .catalog-item .actions .bookmark {
-    color:rgb(50,66,92);
-    background:rgb(255, 255, 255);
-    border-bottom-color:rgb(99, 166, 62);
+  color: rgb(50, 66, 92);
+  background: rgb(255, 255, 255);
+  border-bottom-color: rgb(99, 166, 62);
 }
 .catalog-item .actions .bookmark:hover {
   border: 3px solid rgb(50, 66, 92);
@@ -563,56 +563,56 @@ input.search::-ms-input-placeholder {
   border: 3px solid rgb(202, 211, 215);
 }
 .catalog-item .actions{
-    display:none;
+    display: none;
 }
 .catalog-item:hover .actions{
-    display:block;
+    display: block;
 }
 .catalog-item .image{
-    width:218px;
-    height:168px;
+    width: 218px;
+    height: 168px;
 }
 .catalog-item .image img{
-    max-width:100%;
+    max-width: 100%;
 }
 .catalog-item .title{
-    min-height:40px;
-    padding:0 25px;
-    margin-top:10px;
-    margin-bottom:15px;
+    min-height: 40px;
+    padding: 0 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
     font-family: 'PT Sans', Arial, sans-serif;
 }
 .catalog-item .discount{
-    min-height:20px;
-    margin-top:15px;
-    margin-bottom:10px;
-    color:rgb(153, 153, 153);
-    text-decoration:line-through;
+    min-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: rgb(153, 153, 153);
+    text-decoration: line-through;
 }
 .catalog-item .price{
-    position:relative;
-    width:80px;
-    margin:10px auto;
-    margin-bottom:20px;
-    padding:10px 30px;
+    position: relative;
+    width: 80px;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    padding: 10px 30px;
     color: rgb(255, 255, 255);
-    background:rgb(238, 54, 67);
-    border-radius:3px;
+    background: rgb(238, 54, 67);
+    border-radius: 3px;
 }
 .catalog-item .price:after{
-    content:"";
-    position:absolute;
-    top:0;
-    right:-20px;
-    width:0;
-    height:0;
-    border:20px solid rgb(255, 255, 255);
-    border-left-color:rgb(238, 54, 67);
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -20px;
+    width: 0;
+    height: 0;
+    border: 20px solid rgb(255, 255, 255);
+    border-left-color: rgb(238, 54, 67);
 }
 .catalog-item:hover {
   box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
 }
-.catalog-item:hover . image{
+.catalog-item:hover .image{
   display: none;
 }
 .hide {
@@ -627,7 +627,7 @@ input.search::-ms-input-placeholder {
   background-color: rgb(249, 245, 240);
 }
 .pop-creators-head h2 {
-  margin:0;
+  margin: 0;
   font-size: 30px;
   font-weight: 400;
   line-height: 30px;
@@ -645,7 +645,7 @@ input.search::-ms-input-placeholder {
   list-style: none;
 }
 .pop-creators-element img {
-  max-width:100%
+  max-width: 100%
 }
 .services {
   background-color: rgb(244, 248, 250);
@@ -854,11 +854,9 @@ div.modal-window {
 }
 .modal-window-font {
   font-size: 18px;
-  line-height: 18px;
 }
 .modal-window-send {
   font-size: 14px;
-  line-height: 18px;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   background-color: rgb(238, 54, 67);
@@ -878,7 +876,7 @@ div.modal-window {
   padding-right: 10px;
   padding-bottom: 12px;
   padding-left: 13px;
-  background-color: rgb(255,255,255);
+  background-color: rgb(255, 255, 255);
 }
 .name {
   position: relative;
@@ -925,7 +923,6 @@ div.modal-window {
 }
 .breadcrumbs li {
   font-size: 13px;
-  line-height: 18px;
   text-transform: uppercase;
 }
 .breadcrumbs li:first-of-type a {
@@ -947,7 +944,6 @@ div.modal-window {
   padding-top: 32px;
   padding-bottom: 30px;
   padding-left: 28px;
-  font-family: 'Cuprum', Arial, sans-serif;
   font-size: 30px;
   line-height: 30px;
   font-weight: 400;
@@ -977,7 +973,6 @@ div.modal-window {
   padding-bottom: 11px;
   padding-left: 19px;
   font-size: 13px;
-  line-height: 18px;
   font-weight: 400;
   text-transform: uppercase;
   background-color: rgb(247, 243, 236);
@@ -991,11 +986,10 @@ div.modal-window {
 .side-bar .filter-costs {
   margin-bottom: 16px;
   padding-bottom: 25px;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid rgb(229, 229, 229);
 }
 .filter legend {
   margin-bottom: 13px;
-  font-size: 17px;
   line-height: 30px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1042,11 +1036,9 @@ div.modal-window {
   width: 92px;
   padding-top: 11px;
   padding-bottom: 10px;
-  font-size: 17px;
-  line-height: 18px;
   text-align: center;
   border: none;
-  background:rgb(247, 243, 236);
+  background: rgb(247, 243, 236);
   border-radius: 3px;
 }
 .range-price span {
@@ -1175,7 +1167,6 @@ a.show-btn {
   padding-bottom: 11px;
   padding-left: 19px;
   font-size: 12px;
-  line-height: 18px;
   font-weight: 400;
   text-transform: uppercase;
   background-color: rgb(247, 243, 236);
@@ -1222,7 +1213,6 @@ a.show-btn {
     font-size: 13px;
     font-family: "PTSans", Arial, sans-serif;
     color: rgb(0, 0, 0);
-    line-height: 18px;
 }
 .assortment-select-btn a:first-child {
     color: rgb(255, 255, 255);
@@ -1231,7 +1221,7 @@ a.show-btn {
 .about-subject {
   padding-top: 65px;
   padding-bottom: 68px;
-  background-color: #f2f6f8;
+  background-color: rgb(242, 246, 248);
 }
 .about-subject h2 {
   margin: 0;
@@ -1253,14 +1243,12 @@ a.show-btn {
   font-size: 14px;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
-  line-height: 18px;
   background-color: rgb(99, 166,62);
 }
 .bookmark {
   font-size: 14px;
   color: rgb(50, 66, 92);
   text-transform: uppercase;
-  line-height: 18px;
   border: 2px solid rgb(99, 166, 62);
   background-color: rgb(255, 255, 255);
 }
@@ -1278,13 +1266,11 @@ a.checkout {
   font-size: 14px;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
-  line-height: 18px;
   background-color: rgb(238, 54, 67);
 }
 .cart-continue {
   font-size: 14px;
   text-transform: uppercase;
-  line-height: 18px;
   background-color: rgb(255, 255, 255);
 }
 /*Сетка*/
@@ -1360,7 +1346,7 @@ a.checkout {
   width: 220px;
   text-align: center;
   font-weight: 700;
-  border: 1px solid #eaeaea;
+  border: 1px solid rgb(234, 234, 234);
 }
 .pop-creators {
   display: flex;
