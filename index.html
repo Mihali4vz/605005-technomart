@@ -85,24 +85,30 @@
             </li>
           </ul>
           <div class="slider">
-            <ul class="slider-list">
-              <li class="slider-block">
-                <img src="./img/slider-2.jpg" width="620" height="266" alt="Дрели">
-                <div class="slider-info">
+            <div class="slider-block">
+              <input class="visually-hidden" type="radio" id="slide1" name="check" checked>
+              <input class="visually-hidden" type="radio" id="slide2" name="check">
+              <div class="slider-checkbox">
+                <label class="slider-checkbox1 active" for="slide1"></label>
+                <label class="slider-checkbox2" for="slide2"></label>
+              </div>
+              <div>
+                <span class="back" aria-label="Назад"></span>
+                <span class="forward" aria-label="Вперед"></span>
+              </div>
+              <div class="slider-list">
+                <div class="slide-info slide-info1">
                   <h3 class="slider-title">Дрели</h3>
                   <p class="slider-slogan">Соседям на радость!</p>
+                  <a class="slider-btn button" href="catalog.html">Открыть каталог</a>
                 </div>
-                <button class="slider-btn back" type="button">
-                  <span class="visually-hidden">Назад</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="40" viewBox="0 0 22 40"><path fill="#FFF" d="M19.83-.035l2.089 2.099L4.13 19.947l17.847 17.939-2.09 2.099L-.048 19.947z"/></svg>
-                </button>
-                <button class="slider-btn forward" type="button">
-                  <span class="visually-hidden">Вперед</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="40" viewBox="0 0 22 40"><path fill="#FFF" d="M2.098-.035L.009 2.064l17.789 17.883L-.048 37.886l2.089 2.099 19.935-20.038z"/></svg>
-                </button>
-                <a class="button" href="catalog.html">Открыть каталог</a>
-              </li>
-            </ul>
+                <div class="slide-info slide-info2">
+                  <h3 class="slider-title">Перфораторы</h3>
+                  <p class="slider-slogan">Настоящие мужские игрушки</p>
+                  <a class="slider-btn button" href="catalog.html">Открыть каталог</a>
+                </div>
+              </div>
+            </div>
             <ul class="side-blocks">
               <li class="assortment-block block4">
                 <h3 class="assortment-title">Скидки 50%</h3>
