@@ -71,7 +71,8 @@
         <section class="assortment">
           <h2 class="visually-hidden">Ассортимент</h2>
           <ul class="assortment-list">
-            <li class="assortment-block block1 block-new">
+            <li class="assortment-block block1">
+              <span class="flagnew"></span>
               <h3 class="assortment-title">Материалы</h3>
               <a class="assortment-btn" href="#">на любой вкус</a>
             </li>
@@ -218,70 +219,69 @@
             </a>
           </li>
         </ul>
-        <section class="services">
-          <div class="services-container">
-            <h2>СЕРВИСЫ</h2>
-            <p class="service-text">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-            <ul>
-              <li class="service-list">
-                <label class="service-type" for="button-1">Доставка</label>
-                <input type="radio" id="button-1" name="service-toggle" checked>
-                <li>
-                  <h3 class="service-description-title">Доставка</h3>
-                  <p class="service-description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
-                  <img class="delivery" src="./img/Delivery.jpg" alt="Доставка">
-                </li>
+      </div>
+      <section class="services">
+        <div class="container">
+          <div class="service">
+            <h2>Сервисы</h2>
+            <p> Хороший интернет-магазин отличается от плохого не только ценами!<br>Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+            <div class="service-checkbox">
+              <input type="radio" id="srv-1" name="toggle" checked>
+              <input type="radio" id="srv-2" name="toggle">
+              <input type="radio" id="srv-3" name="toggle">
+              <ul class="service-list">
+                <li><label for="srv-1">Доставка</label></li>
+                <li><label for="srv-2">Гарантия</label></li>
+                <li><label for="srv-3">Кредит</label></li>
+              </ul>
+              <div class="service-description">
+                <div class="servdesription-list">
+                  <div class="delivery">
+                    <h3>Доставка</h3>
+                    <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!<br>Ведь мы неплохо заработаем,<br> поднимая его на ваш этаж!</p>
+                  </div>
+                  <div class="guarantee">
+                    <h3>Гарантия</h3>
+                    <p>Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгаранием,  вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь сами.</p>
+                  </div>
+                  <div class="credit">
+                    <h3>Кредит</h3>
+                    <p>Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
+                    <a href="#" class="credit-btn button">Отправить заявку</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <section class="company">
+          <div class="description">
+            <h2 class="company-title">КОМПАНИЯ &#171;ТЕХНОМАРТ&#187;</h2>
+            <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
+            <p>Мы можем доставить ваш товар в самые отдаленные точки Росии! Техномарт работает со многими транспортными компаниями:</p>
+            <ul class="company-description">
+              <li class="description-list">
+                 Деловые линии
               </li>
-              <li class="service-list">
-                <label class="service-type" for="button-2">Гарантия</label>
-                <input type="radio" id="button-2" name="service-toggle">
-                <li>
-                  <h3 class="service-description-title">Гарантия</h3>
-                  <p class="service-description">Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгоранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь сами.</p>
-                  <img class="guarantee" src="./img/Guarantee.jpg" alt="Гарантия">
-                </li>
+              <li class="description-list">
+                 Автотрейдинг
               </li>
-              <li class="service-list">
-                <label class="service-type" for="button-3">Кредит</label>
-                <input type="radio" id="button-3" name="service-toggle">
-                <li>
-                  <h3 class="service-description-title">Кредит</h3>
-                  <p class="service-description">Залезть в долговую яму стало проще. Кредитные консультанты придут вам на помощь.</p>
-                  <a class="send-request-btn button" href="#">ОТПРАВИТЬ ЗАЯВКУ</a>
-                  <img class="credit" src="./img/Credit.jpg" alt="Кредит">
-                </li>
+              <li class="description-list">
+                 ЖелДорЭкспедиция
               </li>
             </ul>
+            <a class="about-company button" href="#">ПОДРОБНЕЕ О КОМПАНИИ</a>
+          </div>
+          <div class="contacts">
+            <h2>КОНТАКТЫ</h2>
+            <p>Вы можете забрать товар сами, заехав в наш офис:</p>
+            <a class="map" href="#"><img src="img/minimap.png" alt="Карта"></a>
+            <a class="write-us button" href="#">ЗАБЛУДИЛИСЬ? НАПИШИТЕ НАМ!</a>
           </div>
         </section>
-        <div class="container">
-          <section class="company">
-            <div class="description">
-              <h2 class="company-title">КОМПАНИЯ &#171;ТЕХНОМАРТ&#187;</h2>
-              <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
-              <p>Мы можем доставить ваш товар в самые отдаленные точки Росии! Техномарт работает со многими транспортными компаниями:</p>
-              <ul class="company-description">
-                <li class="description-list">
-                 Деловые линии
-               </li>
-               <li class="description-list">
-                 Автотрейдинг
-               </li>
-               <li class="description-list">
-                 ЖелДорЭкспедиция
-               </li>
-             </ul>
-             <a class="about-company button" href="#">ПОДРОБНЕЕ О КОМПАНИИ</a>
-           </div>
-           <div class="contacts">
-             <h2>КОНТАКТЫ</h2>
-             <p>Вы можете забрать товар сами, заехав в наш офис:</p>
-             <a class="map" href="#"><img src="img/minimap.png" alt="Карта"></a>
-             <a class="write-us button" href="#">ЗАБЛУДИЛИСЬ? НАПИШИТЕ НАМ!</a>
-           </div>
-         </section>
-       </div>
-     </div>
+      </div>
    </main>
    <footer class="main-footer top">
      <div class="footer-container">
@@ -345,15 +345,36 @@
        </p>
      </div>
    </footer>
-   <div class="modal-window">
-     <label class="modal-window-font" for="name">Ваше имя:</label>
-     <input id="name" type="text" placeholder="Представьтесь, пожалуйста">
-     <label class="modal-window-font" for="e-mail">Ваш e-mail:</label>
-     <input id="e-mail" type="text" placeholder="Для отправки ответа">
-     <label class="modal-window-font" for="message">Текст письма:</label>
-     <input id="message" type="text" placeholder="В свободной форме">
-     <button class="modal-window-exit">Выход</button>
-     <button class="modal-window-send">ОТПРАВИТЬ</button>
-   </div>
+   <section class="modal modwindow">
+     <div class="modal-form">
+       <form class="feedback" action="" method="post">
+         <div class="modal-info">
+           <p>
+             <label class="modal-window-name" for="name">Ваше имя:</label>
+             <input class="modal-input-name" id="name" type="text" placeholder="Представьтесь, пожалуйста">
+           </p>
+           <p>
+             <label class="modal-window-mail" for="e-mail">Ваш e-mail:</label>
+             <input class="modal-input-mail" id="e-mail" type="text" placeholder="Для отправки ответа">
+           </p>
+         </div>
+         <p class="message-area">
+           <label class="modal-window-text" for="message">Текст письма:</label>
+           <textarea class="modal-input-text" id="message" type="text" placeholder="В свободной форме"></textarea>
+         </p>
+         <p class="feedback-send">
+           <button class="modal-window-send button">ОТПРАВИТЬ</button>
+         </p>
+       </form>
+       <button class="modal-window-exit" aria-label="Выход"></button>
+     </div>
+   </section>
+
+   <section class="modal big-map">
+     <div class="map-container">
+       <img src="./img/bigmap.png" width="940" height="447" alt="Адрес: ул. Большая Конюшенная д.19, г.Санкт-Петербург">
+       <button class="modal-window-exit" aria-label="Выход"></button>
+     </div>
+   </section>
  </body>
  </html>
