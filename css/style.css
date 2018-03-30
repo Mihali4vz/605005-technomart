@@ -571,6 +571,7 @@ input.search:focus::-ms-input-placeholder {
   background-image: url('../img/slider-2.jpg');
   background-size: 620px;
   background-repeat: no-repeat;
+  background-color: rgb(128, 86, 73);
 }
 
 .slide-info2 {
@@ -578,6 +579,7 @@ input.search:focus::-ms-input-placeholder {
   background-image: url('../img/slider-1.jpg');
   background-size: 620px;
   background-repeat: no-repeat;
+  background-color: rgb(185, 168, 159);
 }
 
 input#slide1:checked ~ .slider-list .slide-info1 {
