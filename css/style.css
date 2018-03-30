@@ -847,6 +847,7 @@ ul.slide-blocks {
 }
 
 .catalog-item:hover {
+  padding-top: 168px;
   box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
 }
 
@@ -897,6 +898,16 @@ ul.slide-blocks {
 	background-color: rgb(244, 248, 249);
 }
 
+.card:hover {
+  box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
+}
+
+.pop-creators-element
+:active {
+  box-shadow: 0 4px 10px 0 rgba(41, 52, 73, 0.5);
+  opacity: 0.3;
+}
+
 .service h2 {
 	margin:0;
 	padding:0;
@@ -910,6 +921,7 @@ ul.slide-blocks {
 
 .service p {
 	margin: 0;
+  min-width: 400px;
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 13px;
 	line-height: 24px;
@@ -1031,9 +1043,9 @@ ul.slide-blocks {
   position: absolute;
   top: 22px;
   right: 0px;
-  width: 427px;
+  width: 470px;
   height: 250px;
-  background-image: url("../img/Delivery.jpg");
+  background-image: url("../img/delivery.jpg");
   background-repeat: no-repeat;
   background-position: 0 0;
   z-index: -1;
@@ -1046,11 +1058,11 @@ ul.slide-blocks {
 .guarantee::after {
   content: "";
   position: absolute;
-  top: 0px;
+  top: 15px;
   right: 10px;
-  width: 334px;
+  width: 390px;
   height: 263px;
-  background-image: url("../img/Guarantee.jpg");
+  background-image: url("../img/guarantee.jpg");
   background-repeat: no-repeat;
   background-position: 0 0;
   z-index: -1;
@@ -1063,28 +1075,32 @@ ul.slide-blocks {
 .credit::after {
   content: "";
   position: absolute;
-  top: 0px;
+  top: 5px;
   right: 0px;
-  width: 417px;
+  width: 467px;
   height: 274px;
-  background-image: url("../img/Credit.jpg");
+  background-image: url("../img/credit.jpg");
   background-repeat: no-repeat;
   background-position: 0 0;
   z-index: -1;
 }
 
 .company {
-  margin-top: 80px;
+  margin-top: 60px;
   margin-bottom: 85px;
 }
 
 .company h2 {
-  padding-bottom: 26px;
+  padding-bottom: 18px;
+  font-size: 30px;
+  font-weight: 400;
 }
 
 .description p {
   width: 540px;
   margin: 0;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 .description p:first-of-type {
@@ -1105,7 +1121,7 @@ ul.slide-blocks {
   padding-left: 35px;
   font-size: 18px;
   line-height: 20px;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .description-list:last-of-type {
@@ -1131,6 +1147,8 @@ ul.slide-blocks {
   width: 210px;
   margin: 0;
   padding-bottom: 31px;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 .map {
@@ -1190,6 +1208,16 @@ a.footer-link {
 
 .nav2 {
   padding-top: 33px;
+}
+
+.nav1 a:hover,
+.nav2 a:hover {
+  text-decoration: underline;
+}
+
+.nav1 a:active,
+.nav2 a:active {
+  opacity: 0.5;
 }
 
 .footer-link2 {
@@ -1263,6 +1291,11 @@ a.footer-link2 {
   background-image: url('../img/svg/icon-insta.svg');
 }
 
+.social-btns a:hover,
+.social-btns a:active {
+  background-color: rgb(238, 54, 67);
+}
+
 .feedbacks {
   width: 140px;
 }
@@ -1276,6 +1309,16 @@ a.footer-link2 {
 .feedbacks a,
 .made-by a {
   color: rgb(255, 209, 128);
+}
+
+.feedbacks a:hover,
+.made-by a:hover {
+  text-decoration: underline;
+}
+
+.feedbacks a:active,
+.made-by a:active {
+  color: #ee3643;
 }
 
 /*Модальные окна*/
@@ -2030,7 +2073,7 @@ a.checkout {
 .catalog-items {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 65px;
+  margin-bottom: 2px;
   font-family: 'PT Sans', Arial, sans-serif;
 }
 
@@ -2050,7 +2093,7 @@ a.checkout {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 17px;
+  margin-bottom: 20px;
   padding: 27px;
 }
 
