@@ -750,8 +750,8 @@ ul.slide-blocks {
     z-index: 10;
 }
 
-.catalog-item .actions .buy,
-.catalog-item .actions .bookmark{
+.actions .buy,
+.actions .bookmark{
     display: block;
     width: 129px;
     margin: 0 auto;
@@ -768,30 +768,30 @@ ul.slide-blocks {
     border-radius: 3px;
 }
 
-.catalog-item .actions .buy:hover {
+.actions .buy:hover {
   background-color: rgb(95, 187, 45);
 }
 
-.catalog-item .actions .buy:active {
+.actions .buy:active {
   background-color: rgb(81, 133, 52);
 }
 
-.catalog-item .actions .bookmark {
+.actions .bookmark {
   color: rgb(50, 66, 92);
   background: rgb(255, 255, 255);
   border-bottom-color: rgb(99, 166, 62);
 }
 
-.catalog-item .actions .bookmark:hover {
+.actions .bookmark:hover {
   border: 3px solid rgb(50, 66, 92);
 }
 
-.catalog-item .actions .bookmark:active {
+.actions .bookmark:active {
   color: rgba(50, 66, 92, 0.3);
   border: 3px solid rgb(202, 211, 215);
 }
 
-.catalog-item .actions{
+.actions{
     display: none;
 }
 
@@ -804,7 +804,7 @@ ul.slide-blocks {
     height: 168px;
 }
 
-.catalog-item .image img{
+.image img{
     max-width: 100%;
 }
 
