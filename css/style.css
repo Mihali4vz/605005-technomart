@@ -249,7 +249,7 @@ input.search:focus::-ms-input-placeholder {
   align-items: center;
 }
 
-.tel {
+.telephone {
   margin: 0;
   margin-bottom: 5px;
   padding-top: 10px;
@@ -264,7 +264,7 @@ input.search:focus::-ms-input-placeholder {
   border-radius: 3px;
 }
 
-.tel::before {
+.telephone::before {
   content: '';
   position: absolute;
   width: 19px;
@@ -713,7 +713,7 @@ ul.slide-blocks {
     font-family: 'PT Sans', Arial, sans-serif;
     border: 1px solid rgb(229, 229, 229);
     line-height: 20px;
-    font-weight: bold;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -853,7 +853,7 @@ ul.slide-blocks {
 }
 
 .hide {
-  font-size: 0;
+  opacity: 0;
 }
 
 .creators-container {
@@ -1236,6 +1236,7 @@ a.footer-link2 {
 
 .footer-bottom p {
   margin: 0;
+  padding: 0;
 }
 
 .footer-bottom-container {
@@ -1300,8 +1301,7 @@ a.footer-link2 {
 
 .made-by {
   width: 150px;
-  padding-right: 15px;
-  text-align: end;
+  text-align: right;
 }
 
 .feedbacks a,
@@ -1677,7 +1677,8 @@ a.footer-link2 {
 }
 
 .range-price input {
-  width: 92px;
+  padding: 0;
+  width: 93px;
   padding-top: 11px;
   padding-bottom: 10px;
   text-align: center;
@@ -1687,7 +1688,7 @@ a.footer-link2 {
 }
 
 .range-price span {
-  margin: auto 6px;
+  margin: auto 5px;
 }
 
 .side-bar .creators {
@@ -2128,8 +2129,6 @@ a.checkout {
 }
 
 .catalog-items {
-  display: flex;
-  justify-content: space-between;
   margin-bottom: 2px;
   font-family: 'PT Sans', Arial, sans-serif;
 }
