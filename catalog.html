@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body class="catalog">
     <h1 class="visually-hidden">Техномарт</h1>
@@ -112,8 +112,8 @@
                     <div class="scale">
                       <div class="bar"></div>
                     </div>
-                    <div class="range-toggle min-toggle"></div>
-                    <div class="range-toggle max-toggle"></div>
+                    <div class="range-toggle min-toggle" tabindex="0"></div>
+                    <div class="range-toggle max-toggle" tabindex="0"></div>
                 </div>
                 <div class="range-price filter-price">
                   <input class="min" type="text" value="0">
@@ -127,23 +127,23 @@
                 <ul class="creators-list creator-filter">
                   <li class="creator clist">
                     <input class="creator-checkbox visually-hidden" type="checkbox" name="bosch" id="cbosch" checked>
-                    <label for="cbosch">Bosch</label>
+                    <label for="cbosch" tabindex="0">Bosch</label>
                   </li>
                   <li class="creator clist">
                     <input class="creator-checkbox visually-hidden" type="checkbox" name="interscol" id="cinterscol">
-                    <label for="cinterscol">Интерскол</label>
+                    <label for="cinterscol" tabindex="0">Интерскол</label>
                   </li>
                   <li class="creator clist ">
                     <input class="creator-checkbox visually-hidden" type="checkbox" name="makita" id="cmakita" checked>
-                    <label for="cmakita">Makita</label>
+                    <label for="cmakita" tabindex="0">Makita</label>
                   </li>
                   <li class="creator clist">
                     <input class="creator-checkbox visually-hidden" type="checkbox" name=" dewalt" id="cdewalt">
-                    <label for="cdewalt">DeWalt</label>
+                    <label for="cdewalt" tabindex="0">DeWalt</label>
                   </li>
                   <li class="creator clist">
                     <input class="creator-checkbox visually-hidden" type="checkbox" name="hitachi" id="chitachi">
-                    <label for="chitachi">Hitachi</label>
+                    <label for="chitachi" tabindex="0">Hitachi</label>
                   </li>
                 </ul>
               </fieldset>
@@ -152,11 +152,11 @@
                   <ul class="feed-list power">
                     <li class="feed-type power-type">
                       <input class="feed1 visually-hidden" type="radio" name="type1" value="battery" id="accumulate" checked>
-                      <label for="accumulate">Аккумуляторные</label>
+                      <label for="accumulate" tabindex="0">Аккумуляторные</label>
                     </li>
                     <li class=" feed-type power-type ">
                       <input class=" feed1 visually-hidden" type="radio" name="type2" value="network" id="net">
-                      <label for="net">Сетевые</label>
+                      <label for="net" tabindex="0">Сетевые</label>
                     </li>
                   </ul>
                 </fieldset>
