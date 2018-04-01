@@ -456,10 +456,13 @@ input.search:focus::-ms-input-placeholder {
 }
 
 .side-blocks .block4{
+  margin-top: 21px;
   background-color: rgb(142, 215, 143);
 }
 
+
 .side-blocks .block5{
+  margin-top: 21px;
   background-color: rgb(255, 192, 71);
 }
 
@@ -495,7 +498,7 @@ input.search:focus::-ms-input-placeholder {
 .assortment-title {
   padding: 0;
   margin: 0;
-  margin-top: 21px;
+  padding-top: 21px;
   margin-left: 23px;
   font-weight: 700;
   font-size: 24px;
@@ -896,13 +899,13 @@ ul.slide-blocks {
   min-height: 40px;
   padding: 0 25px;
   margin-top: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 7px;
   font-family: 'PT Sans', Arial, sans-serif;
 }
 
 .catalog-item .discount{
   min-height: 20px;
-  margin-top: 15px;
+  margin-top: 7px;
   margin-bottom: 10px;
   color: rgb(153, 153, 153);
   text-decoration: line-through;
@@ -1847,6 +1850,7 @@ a.footer-link2 {
 }
 
 .catalog-items-2 {
+  margin-bottom: 32px;
   width: 700px;
   margin-bottom: 40px;
 }
@@ -2196,6 +2200,7 @@ a.show-btn {
 }
 
 .assortment-select-btn a {
+  display: inline-block;
   font-size: 13px;
   font-family: "PTSans", Arial, sans-serif;
   color: rgb(0, 0, 0);
@@ -2216,12 +2221,10 @@ a.show-btn {
 }
 
 .btn1 a {
+  pointer-events: none;
+  cursor: default;
   color: rgb(255, 255, 255);
   background-color: rgb(238, 54, 67);
-  border: 1px solid rgb(238, 54, 67);
-}
-
-.btn1 a:hover {
   border: 1px solid rgb(238, 54, 67);
 }
 
